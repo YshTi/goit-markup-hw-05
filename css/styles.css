@@ -533,7 +533,7 @@ body:has(.backdrop.is-open) {
     border-color: #4D5AE5;
 }
 
-.button.footer-button {
+.footer-button {
     min-width: 165px;
     height: 40px;
     margin: 0;
@@ -586,8 +586,8 @@ body:has(.backdrop.is-open) {
     left: 50%;
     transform: translate(-50%, -70%);
     opacity: 0;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: transform, opacity;
+    transition: transform opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-property: transform, opacity; */
 }
 
 .backdrop.is-open .modal {
