@@ -749,6 +749,4 @@ input[type="checkbox"]:checked + .agree-wrap > .agree-check {
     text-decoration-skip-ink: none;
     color: #4D5AE5;
 }
-
-.accent-text {}
 /* #endregion */
