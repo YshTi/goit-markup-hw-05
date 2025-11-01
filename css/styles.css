@@ -534,17 +534,17 @@ body:has(.backdrop.is-open) {
 }
 
 .button.footer-button {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 
 .footer-sb-icon {
     fill: currentColor;
+    margin-left: 16px;
 }
 /* #endregion */
 
