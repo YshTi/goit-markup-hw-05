@@ -689,7 +689,8 @@ body:has(.backdrop.is-open) {
 .mdl-frm-message{
     resize: none;
     border: 1px solid;
-    border-color: #2E2F4266;
+    border-color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
     border-radius: 4px;
     width: 100%;
     height: 120px;
@@ -709,6 +710,8 @@ body:has(.backdrop.is-open) {
 .mdl-frm-message:focus {
     border-color:#4D5AE5;
 }
+
+
 
 /* Custom checkbox */
 .form-agreement {
