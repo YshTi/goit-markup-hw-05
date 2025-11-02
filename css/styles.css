@@ -745,7 +745,7 @@ body:has(.backdrop.is-open) {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + .agree-wrap .agree-check {
+input[type="checkbox"]:checked + .agree-wrap > .agree-check {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
