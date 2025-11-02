@@ -735,17 +735,17 @@ body:has(.backdrop.is-open) {
     margin-right: 8px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    color: transparent;
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color, border, fill;
     cursor: pointer;
-    fill: transparent;
 }
 
 input[type="checkbox"]:checked + .agree-wrap .agree-check {
     background-color: #404BBF;
     border: none;
-    fill: #F4F4FD;
+    color: #F4F4FD;
 }
 
 .check-item {
